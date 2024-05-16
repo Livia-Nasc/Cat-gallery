@@ -1,0 +1,17 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.cat-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.cat-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
