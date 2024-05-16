@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchCats } from './api';
-import { Cat } from './assets/types';
+import { Cat } from './types';
 import './App.css';
 
 const App: React.FC = () => {

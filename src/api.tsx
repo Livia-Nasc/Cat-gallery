@@ -1,4 +1,4 @@
-import { Cat } from './assets/types';
+import { Cat } from './types';
 
 const Cat_api = 'https://api.thecatapi.com/v1/images/search?limit=10';
 
