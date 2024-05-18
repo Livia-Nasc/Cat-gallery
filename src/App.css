@@ -10,7 +10,7 @@
 }
 
 .cat-item img {
-  max-width: 25rem;
+  width: 25rem;
   height: 10rem;
   border-radius: .5rem;
 }
