@@ -5,12 +5,12 @@
 .cat-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
 }
 
 .cat-item img {
-  width: 25rem;
-  height: 10rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: .5rem;
 }
