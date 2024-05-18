@@ -1,5 +1,6 @@
 :root {
-  --linear-gradient: linear-gradient(90deg, #a4c3b2,#cce3de,#eaf4f4);
+  --linear-gradient-light: linear-gradient(180deg, #a4c3b2,#cce3de,#eaf4f4);
+  --linear-gradiente-dark: linear-gradient(180deg, #0d1b2a,#1b263b,#415a77);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -20,13 +21,13 @@ h1 {
 @media (prefers-color-scheme: dark) {
   :root {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.9);
+    background: var(--linear-gradiente-dark);
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #000;
-    background-color: linear-gradient(95deg,#a4c3b2,#cce3de,#eaf4f4)
+    background: var(--linear-gradient-light);
   }
 }
