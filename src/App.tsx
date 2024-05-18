@@ -23,7 +23,7 @@ const App: React.FC = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div id='loading'>Loading...</div>;
   }
 
   return (

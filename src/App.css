@@ -5,8 +5,9 @@
 .cat-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.25rem;
   justify-content: center;
+  align-items: center;
 }
 
 .cat-item img {
