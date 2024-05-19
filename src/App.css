@@ -15,3 +15,23 @@
   height: 20rem;
   border-radius: .5rem;
 }
+
+button {
+  border: none;
+  padding: 0.45rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background:none;
+  text-decoration: underline;
+  color: var(--button-text-color);
+}
+
+.light-theme {
+  background-color: var(--button-bg-color-light);
+  color: var(--button-text-color-light);
+}
+
+.dark-theme {
+  background-color: var(--button-bg-color-dark);
+  color: var(--button-text-color-dark);
+}

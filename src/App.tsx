@@ -21,6 +21,10 @@ const App: React.FC = () => {
 
     getCats();
   }, []);
+  const handleClick = () => {
+    window.location.href = 'https://dog-gallery-orcin.vercel.app';
+  };
+
 
   if (loading) {
     return <div id='loading'>Loading...</div>;
@@ -36,6 +40,8 @@ const App: React.FC = () => {
           </div>
         ))}
       </div>
+      <button onClick={handleClick} type="button">Go to dogs gallery
+      </button>
     </div>
   );
 };
