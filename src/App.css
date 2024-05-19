@@ -25,13 +25,3 @@ button {
   text-decoration: underline;
   color: var(--button-text-color);
 }
-
-.light-theme {
-  background-color: var(--button-bg-color-light);
-  color: var(--button-text-color-light);
-}
-
-.dark-theme {
-  background-color: var(--button-bg-color-dark);
-  color: var(--button-text-color-dark);
-}
